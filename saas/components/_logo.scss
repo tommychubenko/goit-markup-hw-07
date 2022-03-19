@@ -15,13 +15,15 @@
 
 .logo--studio-black {
   color: $primary-text-color;
+  display: inline;
 }
 .studio-white {
   color: $white-color;
+  display: inline;
 }
 
 .logo-footer {
-  display: block;
+  // display: block;
   margin-bottom: 20px;
   padding: 0;
 }

@@ -53,14 +53,14 @@
   border-radius: 50%;
 }
 
-.modal__close-button:hover .modal__close-icon,
-.modal__close-button:focus .modal__close-icon {
-  fill: $accent-text-color;
-}
-
 .modal__close-icon {
   fill: #212121;
   transition: fill $standart-transition-time $standart-transition-style;
+
+  .modal__close-button:hover &,
+  .modal__close-button:focus & {
+    fill: $accent-text-color;
+  }
 }
 
 .form__label {
