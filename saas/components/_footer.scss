@@ -113,6 +113,13 @@
   border-radius: 4px;
   outline-width: 0;
   background-color: $background-color-number-two;
+
+  transition: border-color $standart-transition-time $standart-transition-style;
+
+  &:hover,
+  &:focus {
+    border-color: $accent-text-color;
+  }
 }
 
 .footer-email__button {
