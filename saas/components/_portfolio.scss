@@ -24,13 +24,6 @@
 
 .grid__item {
   margin: 15px;
-
-  &:nth-child(n + 7) {
-    margin-bottom: 0;
-  }
-  &:nth-child(3n + 3) {
-    margin-right: 0;
-  }
 }
 
 .grid__link {

@@ -967,14 +967,6 @@ ul {
   margin: 15px;
 }
 
-.grid__item:nth-child(n + 7) {
-  margin-bottom: 0;
-}
-
-.grid__item:nth-child(3n + 3) {
-  margin-right: 0;
-}
-
 .grid__link {
   text-decoration: none;
   display: block;
